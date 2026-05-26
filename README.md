@@ -27,8 +27,36 @@ Project/
 
 
 ##  How to run 
+on a cmd/terminal clone this reporsitory
+```text
+git clone https://github.com/stellamala/Persistant-Scatterer-In-SAR-Data-baseline-search.git
 
+```
+
+and move in the project folder :
+```text
+cd ./Persistant-Scatterer-In-SAR-Data-baseline-search
+```
+
+donload requirements: 
 ```text
 pip install -r requirements.txt
 ```
+Replace your Earth data key in 'Baseline_download_data.py': 
+```text
+token='YOUR TOKEN'
+```
 
+
+
+## If you DONT have a token
+
+### Step 1: Create an Earthdata Account
+1. Go to the [NASA Earthdata Login page](https://urs.earthdata.nasa.gov/).
+2. Click **"Register"** and create a free account.
+3. Save your **Username** and **Password**.
+
+### Step 2: Approve the ASF Application
+1. Log into your new Earthdata account.
+2. Go to your **Profile** -> **Applications** -> **Authorized Apps**.
+3. Approve the **"Alaska Satellite Facility - Datapool"** application.
